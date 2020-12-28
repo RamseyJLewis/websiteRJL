@@ -4,7 +4,9 @@ import './LoadingPage.css'
 function LoadingPage() {
     return (
         <div className='loadingPage'>
-            <p className='Test'> Test Test Test</p>
+            <div className='nameContainer'>
+            <p className='RamseyJL'>Ramsey J. Lewis</p>
+            </div>
         </div>
     )
 }
