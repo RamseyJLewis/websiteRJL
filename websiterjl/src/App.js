@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import loadingPage from './loadingPage/loadingPage'
+import LoadingPage from './components/LoadingPage/LoadingPage'
 
 function App() {
   return (
     <div className="App">
-      <loadingPage/>
+      <div className='Container'>
+      <LoadingPage/>
+      </div>
     </div>
   );
 }

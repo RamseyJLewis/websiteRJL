@@ -7,3 +7,14 @@
   text-align: center;
   background-color: black;
 }
+
+
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;  
+  height: 100vh;
+  width: 100vw;
+}
