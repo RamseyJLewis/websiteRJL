@@ -6,7 +6,7 @@ import { React, BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 import ModelingPage from './components/ModelingPage/ModelingPage';
 import SoftwareEngineerPage from './components/SoftwareEnigineer.Page/SoftwareEngineerPage'
 import BlogPage from './components/BlogPage/BlogPage';
-// import { browserHistory, Router, Route } from 'react-router';
+
 
 
 

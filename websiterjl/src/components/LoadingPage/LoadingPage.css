@@ -1,30 +1,35 @@
 
-.loadingPage{
+/* .loadingPage{
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
-    padding-bottom: 300px;
-    
-}
+} */
 .nameContainer{
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 100vw;
     height: 90%;
-    width: 90%;
     font-size: xx-large;
     letter-spacing: 10px;
-    font-size: 1100%;
+    font-size: 10rem;
+
 }
 .RamseyJL{
     display: flex;
     justify-content: center;
-    height: 100%;
     width: 100%;
+    
     align-items: center;
     color: black;
     font-family: SeoulHangang CL;
     white-space: nowrap;
+}
+
+@media( max-width: 1211px){
+    .nameContainer{
+        font-size: large;
+        font-weight: bolder;
+    }
 }
